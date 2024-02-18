@@ -1,7 +1,7 @@
-package ma.therightman.orderkafka.services;
+package order.orderkafka.services;
 
 import com.itextpdf.text.DocumentException;
-import ma.therightman.orderkafka.dtos.OrderDTO;
+import order.orderkafka.dtos.OrderDTO;
 
 import java.io.File;
 import java.io.FileNotFoundException;

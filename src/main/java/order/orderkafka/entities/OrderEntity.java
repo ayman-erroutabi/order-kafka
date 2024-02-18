@@ -1,4 +1,4 @@
-package ma.therightman.orderkafka.entities;
+package order.orderkafka.entities;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

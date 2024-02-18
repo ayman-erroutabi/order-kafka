@@ -1,8 +1,8 @@
-package ma.therightman.orderkafka.services.impl;
+package order.orderkafka.services.impl;
 
-import ma.therightman.orderkafka.entities.OrderItemEntity;
-import ma.therightman.orderkafka.repositories.OrderItemRepository;
-import ma.therightman.orderkafka.services.OrderItemService;
+import order.orderkafka.entities.OrderItemEntity;
+import order.orderkafka.repositories.OrderItemRepository;
+import order.orderkafka.services.OrderItemService;
 import org.springframework.stereotype.Service;
 
 @Service
@@ -15,7 +15,7 @@ public class OrderItemServiceImpl implements OrderItemService {
     }
 
     @Override
-    public OrderItemEntity save( OrderItemEntity orderItemEntity ){
+    public OrderItemEntity save(OrderItemEntity orderItemEntity ){
         return this.orderItemRepository.save(orderItemEntity);
     }
 

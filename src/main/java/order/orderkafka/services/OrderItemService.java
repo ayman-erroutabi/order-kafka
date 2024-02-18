@@ -1,6 +1,6 @@
-package ma.therightman.orderkafka.services;
+package order.orderkafka.services;
 
-import ma.therightman.orderkafka.entities.OrderItemEntity;
+import order.orderkafka.entities.OrderItemEntity;
 
 public interface OrderItemService {
 

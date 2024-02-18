@@ -1,7 +1,7 @@
-package ma.therightman.orderkafka.services;
+package order.orderkafka.services;
 
 
-import ma.therightman.orderkafka.entities.ProductEntity;
+import order.orderkafka.entities.ProductEntity;
 
 import java.util.List;
 

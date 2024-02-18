@@ -1,4 +1,4 @@
-package ma.therightman.orderkafka.services.impl;
+package order.orderkafka.services.impl;
 
 import com.itextpdf.text.*;
 import com.itextpdf.text.pdf.PdfDiv;
@@ -6,10 +6,10 @@ import com.itextpdf.text.pdf.PdfPCell;
 import com.itextpdf.text.pdf.PdfPTable;
 import com.itextpdf.text.pdf.PdfWriter;
 import lombok.extern.slf4j.Slf4j;
-import ma.therightman.orderkafka.constants.PdfConstants;
-import ma.therightman.orderkafka.dtos.OrderDTO;
-import ma.therightman.orderkafka.dtos.OrderItemDTO;
-import ma.therightman.orderkafka.services.InvoiceService;
+import order.orderkafka.constants.PdfConstants;
+import order.orderkafka.dtos.OrderDTO;
+import order.orderkafka.dtos.OrderItemDTO;
+import order.orderkafka.services.InvoiceService;
 import org.springframework.stereotype.Service;
 
 import java.io.File;

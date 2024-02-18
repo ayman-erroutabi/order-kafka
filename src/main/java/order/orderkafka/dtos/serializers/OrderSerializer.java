@@ -1,8 +1,8 @@
-package ma.therightman.orderkafka.dtos.serializers;
+package order.orderkafka.dtos.serializers;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import lombok.extern.slf4j.Slf4j;
-import ma.therightman.orderkafka.dtos.OrderDTO;
+import order.orderkafka.dtos.OrderDTO;
 import org.apache.kafka.common.errors.SerializationException;
 import org.apache.kafka.common.serialization.Serializer;
 

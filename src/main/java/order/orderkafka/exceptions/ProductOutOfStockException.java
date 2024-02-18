@@ -1,4 +1,4 @@
-package ma.therightman.orderkafka.exceptions;
+package order.orderkafka.exceptions;
 
 public class ProductOutOfStockException extends RuntimeException{
     public ProductOutOfStockException(String message){

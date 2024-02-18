@@ -1,6 +1,6 @@
-package ma.therightman.orderkafka.services;
+package order.orderkafka.services;
 
-import ma.therightman.orderkafka.entities.CustomerEntity;
+import order.orderkafka.entities.CustomerEntity;
 
 public interface CustomerService {
     CustomerEntity getCustomerById(long id);

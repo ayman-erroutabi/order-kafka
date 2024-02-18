@@ -1,4 +1,4 @@
-package ma.therightman.orderkafka.dtos;
+package order.orderkafka.dtos;
 
 
 import lombok.AllArgsConstructor;

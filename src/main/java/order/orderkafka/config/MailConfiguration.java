@@ -1,4 +1,4 @@
-package ma.therightman.orderkafka.config;
+package order.orderkafka.config;
 
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Bean;

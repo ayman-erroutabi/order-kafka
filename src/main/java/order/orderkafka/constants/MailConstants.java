@@ -1,4 +1,5 @@
-package inventory.inventorykafka.constants;
+package order.orderkafka.constants;
 
-public class MailConstants {
+public final class MailConstants {
+    public static final String TEST_MAIL_ORDER_STRING = "Test Mail Order ";
 }

@@ -1,8 +1,8 @@
-package ma.therightman.orderkafka.services.impl;
+package order.orderkafka.services.impl;
 
-import ma.therightman.orderkafka.entities.ProductEntity;
-import ma.therightman.orderkafka.repositories.ProductRepository;
-import ma.therightman.orderkafka.services.ProductService;
+import order.orderkafka.entities.ProductEntity;
+import order.orderkafka.repositories.ProductRepository;
+import order.orderkafka.services.ProductService;
 import org.springframework.stereotype.Service;
 
 import java.util.List;

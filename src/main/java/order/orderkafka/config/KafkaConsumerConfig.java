@@ -1,7 +1,7 @@
-package ma.therightman.orderkafka.config;
+package order.orderkafka.config;
 
-import ma.therightman.orderkafka.dtos.OrderDTO;
-import ma.therightman.orderkafka.dtos.serializers.OrderDeserializer;
+import order.orderkafka.dtos.OrderDTO;
+import order.orderkafka.dtos.serializers.OrderDeserializer;
 import org.apache.kafka.clients.consumer.ConsumerConfig;
 import org.apache.kafka.common.serialization.StringDeserializer;
 import org.springframework.beans.factory.annotation.Value;

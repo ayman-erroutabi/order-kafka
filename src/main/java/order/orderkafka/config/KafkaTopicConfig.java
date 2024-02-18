@@ -1,4 +1,4 @@
-package ma.therightman.orderkafka.config;
+package order.orderkafka.config;
 
 import org.apache.kafka.clients.admin.AdminClientConfig;
 import org.apache.kafka.clients.admin.NewTopic;
@@ -11,7 +11,7 @@ import org.springframework.kafka.core.KafkaAdmin;
 import java.util.HashMap;
 import java.util.Map;
 
-import static ma.therightman.orderkafka.constants.KafkaConstants.*;
+import static order.orderkafka.constants.KafkaConstants.*;
 
 @Configuration
 public class KafkaTopicConfig {

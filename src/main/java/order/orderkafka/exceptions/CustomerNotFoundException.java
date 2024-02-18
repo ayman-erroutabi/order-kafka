@@ -1,4 +1,4 @@
-package ma.therightman.orderkafka.exceptions;
+package order.orderkafka.exceptions;
 
 public class CustomerNotFoundException extends RuntimeException{
     public CustomerNotFoundException(long message){

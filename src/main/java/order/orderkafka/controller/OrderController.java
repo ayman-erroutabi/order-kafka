@@ -1,12 +1,11 @@
-package ma.therightman.orderkafka.controller;
+package order.orderkafka.controller;
 
 import lombok.extern.slf4j.Slf4j;
-import ma.therightman.orderkafka.dtos.OrderDTO;
-import ma.therightman.orderkafka.dtos.RestExceptionDTO;
-import ma.therightman.orderkafka.dtos.requests.OrderRequest;
-import ma.therightman.orderkafka.exceptions.ProductOutOfStockException;
-import ma.therightman.orderkafka.services.OrderService;
-import org.springframework.beans.factory.annotation.Autowired;
+import order.orderkafka.dtos.OrderDTO;
+import order.orderkafka.dtos.RestExceptionDTO;
+import order.orderkafka.dtos.requests.OrderRequest;
+import order.orderkafka.exceptions.ProductOutOfStockException;
+import order.orderkafka.services.OrderService;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;

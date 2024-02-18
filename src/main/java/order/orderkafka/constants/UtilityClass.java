@@ -1,4 +1,4 @@
-package ma.therightman.orderkafka.constants;
+package order.orderkafka.constants;
 
 public class UtilityClass {
 

@@ -1,9 +1,9 @@
-package ma.therightman.orderkafka.services.impl;
+package order.orderkafka.services.impl;
 
-import ma.therightman.orderkafka.entities.CustomerEntity;
-import ma.therightman.orderkafka.exceptions.CustomerNotFoundException;
-import ma.therightman.orderkafka.repositories.CustomerRepository;
-import ma.therightman.orderkafka.services.CustomerService;
+import order.orderkafka.entities.CustomerEntity;
+import order.orderkafka.exceptions.CustomerNotFoundException;
+import order.orderkafka.repositories.CustomerRepository;
+import order.orderkafka.services.CustomerService;
 import org.springframework.stereotype.Service;
 
 @Service

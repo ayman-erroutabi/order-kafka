@@ -1,6 +1,6 @@
-package ma.therightman.orderkafka.services.impl;
+package order.orderkafka.services.impl;
 
-import ma.therightman.orderkafka.services.EmailService;
+import order.orderkafka.services.EmailService;
 import org.springframework.core.io.FileSystemResource;
 import org.springframework.mail.javamail.JavaMailSender;
 import org.springframework.mail.javamail.MimeMessageHelper;

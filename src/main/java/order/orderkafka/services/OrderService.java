@@ -1,9 +1,9 @@
-package ma.therightman.orderkafka.services;
+package order.orderkafka.services;
 
 import com.itextpdf.text.DocumentException;
-import ma.therightman.orderkafka.dtos.OrderDTO;
-import ma.therightman.orderkafka.dtos.requests.OrderRequest;
-import ma.therightman.orderkafka.entities.OrderEntity;
+import order.orderkafka.dtos.OrderDTO;
+import order.orderkafka.dtos.requests.OrderRequest;
+import order.orderkafka.entities.OrderEntity;
 
 import javax.mail.MessagingException;
 import java.io.IOException;
@@ -15,9 +15,9 @@ public interface OrderService {
 
     CompletableFuture<OrderDTO> createOrder(OrderRequest orderRequest);
 
-    CompletableFuture<OrderDTO> processOrderOk(OrderDTO orderDTO) throws IOException, MessagingException, DocumentException;
+    void processOrderOk(OrderDTO orderDTO) throws IOException, MessagingException, DocumentException;
 
-    CompletableFuture<OrderDTO> processOrderNotOk(OrderDTO orderDTO);
+    void processOrderNotOk(OrderDTO orderDTO);
 
     OrderEntity buildOrder(OrderDTO orderDTO);
 }

@@ -1,6 +1,6 @@
-package ma.therightman.orderkafka.repositories;
+package order.orderkafka.repositories;
 
-import ma.therightman.orderkafka.entities.ProductEntity;
+import order.orderkafka.entities.ProductEntity;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

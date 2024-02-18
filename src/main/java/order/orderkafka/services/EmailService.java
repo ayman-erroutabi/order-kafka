@@ -1,4 +1,4 @@
-package ma.therightman.orderkafka.services;
+package order.orderkafka.services;
 
 import javax.mail.MessagingException;
 import java.io.File;
